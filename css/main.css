@@ -1,0 +1,581 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+.column-2 {
+}
+
+.column-3 {
+}
+
+.right-text {
+	text-align: right;
+}
+
+.column-group .right-text {
+	text-align: left;
+}
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px HelveticaNeue-UltraLight, "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+.wrapper {
+	/*margin: 0 5%;*/
+}
+
+/* ===================
+    Base Theme
+   =================== */
+
+.header-container {
+}
+
+.header-container h1.title {
+}
+
+.header-container h1.title::before {
+	width: 1.5ex;
+	height: 1.5ex;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsSAAALEgHS3X78AAAATElEQVRYhe3WsQ0AIAhEUXFK0PkMY+IK1xCafzWBFwqCVdVSE3Gl4sxnas8tT28KAAAAAIwDzP3ot7gh4xsAAAAAAOMpBQAAAIBpwAfhChBB8dEGcwAAAABJRU5ErkJggg==');
+	content: " ";
+	display: inline-block;
+	background-size: 100%;
+	margin-right: .5ex;
+}
+
+
+
+.footer-container {
+	background-color: #565656;
+}
+
+
+.footer-container ul {
+	margin: 0;
+	padding: 0;	
+	list-style-type: none;
+}
+
+.footer-container a {
+	color: white;
+	text-decoration: none;
+}
+
+.title {
+	font-weight: normal;
+	font-style: normal;
+}
+
+div.splash-container {
+}
+
+.splash-container h1 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 300%;
+}
+
+.splash-container img.logo {
+	width: 30%;
+	margin: 10ex 35% 5ex;
+}
+
+i.fab {
+	margin-right: .5ex;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: black;
+    background: white;
+}
+
+nav a:hover,
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 1ex;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+article {
+	display: block;
+	width: 90%;
+	padding: 10ex 5%;
+	min-height: 20em;
+}
+
+article header h1
+{
+	font-weight: normal;
+	font-style: normal;
+}
+
+article p {
+	/*font-family: HelveticaNeue-Light;*/
+	font-size: 140%
+}
+
+body div.header-container .wrapper {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+article img.splash {
+	width: 20ex;
+}
+
+article a.button {
+	padding: .5ex 1.5ex;
+	border-radius: 1ex;
+	background-color: #509ae5;
+	color: white;
+	text-decoration: none;
+	font-family: HelveticaNeue-Light;
+	font-size: 120%;
+	display: inline-block;
+	margin: .5ex;
+}
+
+article a.button:hover {
+    text-decoration: none;
+	background-color: hsl(209, 74%, 40%);	
+}
+
+
+/* Article section colours */
+
+article#purpose {
+	background-color: #617b9f;
+	color: white;
+}
+
+article#purpose a.button {
+	background-color: #596165;
+}
+
+article#purpose a.button:hover {
+	background-color: hsl(199, 6%, 30%);
+}
+
+article#approach {
+	color: white;
+	background-color: hsl(36, 2%, 49%);
+}
+
+article#partners {
+	color: black;
+	background-color: hsl(171, 5%, 80%);
+}
+
+article#team ul {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  bullet: none;
+  margin: 0;
+  padding: 0;
+}
+
+article#team li.person {
+	display: inline-block;
+	width: 25ex;
+	margin: 3ex;
+}
+
+article#team li.person:first-child {
+	margin-left: 0;
+}
+
+article#team li.person:last-child {
+	margin-right: 0;
+}
+
+article#team li.person img.headshot {
+	width: 100%;
+}
+
+article#team li.person span.name {
+	display: block;
+	width: 100%;
+}
+
+article#team li.person span.position {
+	display: block;
+	width: 100%;
+}
+
+article#join-us {
+	color: black;
+	background-color: #a6a6a6;
+}
+
+body div.main-container div.main.wrapper.clearfix {
+	padding-bottom: 0;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+		margin-top: 2ex;
+		padding: .5ex 1ex;
+	}
+
+    nav li:first-child a {
+        /*margin-left: 0;*/
+    }
+
+    nav li:last-child a {
+        /*margin-right: 0;*/
+    }
+	
+	nav a.button {
+		border-radius: 1ex;
+		background-color: #509ae5;
+		color: white;
+		margin-right: .5ex;
+		margin-left: .5ex;
+		padding-right: 1.5ex;
+		padding-left: 1.5ex;
+	}
+
+	nav a.button:hover {
+	    text-decoration: none;
+		background-color: hsl(209, 74%, 40%);	
+	}
+
+	.column-2 {
+		display: inline-block;
+		width: 49%;
+	}
+
+	.column-3 {
+		display: inline-block;
+		width: 33%;
+	}
+	
+	.column-group .right-text {
+		text-align: right;
+	}
+	
+	article p {
+		width: 75%;
+		margin-right: 20ex;
+	}
+	
+	article img.splash {
+		float: right;
+		width: 25%;
+		min-width: 20ex;
+	}
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+/*        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;*/
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        /*width: 1026px; /* 1140px - 10% for margins *!/*/
+		/*margin: 0 5%;*/
+	}
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
