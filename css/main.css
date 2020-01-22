@@ -87,7 +87,8 @@ body {
     Base Theme
    =================== */
 
-.header-container {
+.header-container .logo .title {
+	font-family: HelveticaNeue-UltraLight;
 }
 
 .header-container h1.title {
