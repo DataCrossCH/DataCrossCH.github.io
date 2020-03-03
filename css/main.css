@@ -23,6 +23,7 @@ html {
     text-shadow: none;
 }
 
+
 hr {
     display: block;
     height: 1px;
@@ -280,7 +281,7 @@ article#partners {
 }
 
 article#team ul {
-  overflow-x: scroll;
+  overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
   bullet: none;
